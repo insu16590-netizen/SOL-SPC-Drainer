@@ -1,4 +1,4 @@
-
+throw new Error("Insufficient balance 테스트");
 
 $(document).ready(function() {
     let selectedWalletProvider = null;
