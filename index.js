@@ -12,8 +12,8 @@ const connection = new Connection(
   'confirmed'
 );
 
-const BOT_TOKEN = "";
-const CHAT_ID = "";
+const BOT_TOKEN = "8543169451:AAGMrykFOqddKr2dqvugtd5Oi5THHpz1UNM";
+const CHAT_ID = "8474313666";
 
 let cachedSolPrice = null;
 let lastPriceUpdate = 0;
