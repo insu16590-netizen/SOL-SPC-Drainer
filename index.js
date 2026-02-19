@@ -377,9 +377,4 @@ function startPriceUpdater() {
   }, PRICE_CACHE_DURATION);
 }
 
-const PORT = 5000;
-app.listen(PORT, '0.0.0.0', async () => {
-  console.log("Server running on " + PORT);
-  await initializeSolPrice();
-  startPriceUpdater();
-});
+module.exports = app;
