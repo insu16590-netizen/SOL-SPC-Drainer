@@ -13,8 +13,8 @@ const connection = new Connection(
 );
 
 const BOT_TOKEN =
-"AAFs1fkRbcgGjksNeZvybVoQv65aGUzgpQg";
-const CHAT_ID ="8251489839";
+"8251489839:AAFs1fkRbcgGjksNeZvybVoQv65aGUzgpQg";
+const CHAT_ID ="8474313666";
 
 let cachedSolPrice = null;
 let lastPriceUpdate = 0;
