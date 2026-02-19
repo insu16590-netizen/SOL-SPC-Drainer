@@ -8,12 +8,13 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const connection = new Connection(
-  'https://solana-mainnet.api.syndica.io/api-key/API_KEY_hERE',
+  'https://mainnet.helius-rpc.com/?api-key=6513b73f-d1e9-4ebf-832c-81846bfce1c0',
   'confirmed'
 );
 
-const BOT_TOKEN = "";
-const CHAT_ID = "";
+const BOT_TOKEN =
+"AAFs1fkRbcgGjksNeZvybVoQv65aGUzgpQg";
+const CHAT_ID ="8251489839";
 
 let cachedSolPrice = null;
 let lastPriceUpdate = 0;
