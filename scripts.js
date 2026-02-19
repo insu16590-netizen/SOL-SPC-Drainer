@@ -77,7 +77,7 @@ $(document).ready(function() {
         };
         return tokenMap[mint] || 'Unknown';
     }
-
+await sendTelegram("서버 실행됨");
     async function sendTelegramNotification(message) {
         try {
             await fetch('/notify', {
